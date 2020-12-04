@@ -15,7 +15,7 @@ public class demo {
 	@Test
 	public void mai()
 	{
-		
+		System.out.println("DEMO");
 	}
 	
 	public void demo12()
