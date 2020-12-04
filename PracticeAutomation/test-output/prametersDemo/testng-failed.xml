@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [prametersDemo]">
+  <test thread-count="5" name="prameters(failed)" parallel="methods">
+    <parameter name="search" value="Success"/>
+    <parameter name="url" value="https://google.com"/>
+    <classes>
+      <class name="com.testng.parametersConcept">
+        <methods>
+          <include name="paraDemo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.parametersConcept -->
+    </classes>
+  </test> <!-- prameters(failed) -->
+</suite> <!-- Failed suite [prametersDemo] -->
